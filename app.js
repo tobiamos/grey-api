@@ -11,7 +11,7 @@ const apiRoutes = require('./routes');
 const app = express();
 
 const corsOptions = {
-  origin: ['http://localhost:4200', 'https://objective-dubinsky-a9186a.netlify.com'],
+  origin: ['http://localhost:4200', 'https://determined-curie-d7f30c.netlify.com'],
   methods: ['OPTIONS', 'GET', 'PUT', 'POST', 'DELETE'],
   credentials: true,
 };
