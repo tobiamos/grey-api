@@ -1,0 +1,26 @@
+{
+  "name": "greymerge-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "boom": "^7.2.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "helmet": "^3.14.0",
+    "joi": "^14.0.1",
+    "morgan": "^1.9.1",
+    "sequelize": "^4.41.0",
+    "sqlite3": "^4.0.3"
+  }
+}
